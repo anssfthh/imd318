@@ -1,0 +1,112 @@
+/* interest.css */
+
+/* Reset CSS */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Global Styles */
+body {
+    font-family: Monospace, sans-serif;
+    background-color: #FFE8E8;
+    color: #333;
+}
+
+header {
+    background-color: #990000;
+    color: black;
+    padding: 50px 0;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    text-align: center;
+    margin-top: 10px;
+}
+
+nav ul li {
+    display: inline-block;
+    margin: 0 10px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+    padding: 10px 15px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease-in-out;
+}
+
+nav ul li a:hover {
+    background-color: #cc0000;
+}
+
+main {
+    padding: 20px;
+}
+
+.Favourite.Places {
+    max-width: 800px;
+    margin: 0 auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.Favourite.Places h3 {
+    text-align: center;
+    font-size: 28px;
+    color: #990000;
+    margin-bottom: 20px;
+}
+
+.Favourite.Places ul {
+    list-style: none;
+    padding: 0;
+}
+
+.Favourite.Places li {
+    margin-bottom: 20px;
+}
+
+.Favourite.Places p {
+    font-size: 20px;
+    line-height: 1.5;
+    text-align: justify;
+}
+
+/* Image styles */
+.place-image {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 10px auto;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Link styles */
+.place-link {
+    display: block;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.place-link a {
+    color: #333;
+    text-decoration: none;
+    padding: 10px 15px;
+    background-color: #e2e2e2;
+    border-radius: 5px;
+    transition: background-color 0.3s ease-in-out;
+}
+
+.place-link a:hover {
+    background-color: #ccc;
+}

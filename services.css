@@ -1,0 +1,134 @@
+/* services.css */
+
+/* Reset CSS */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Global Styles */
+body {
+    font-family: Monospace, Monospace;
+    background-color: #FFE8E8;
+    color: #333;
+    font-size: 18px; /* Set the default font size to 18px */
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+    text-align: center; /* Center text within the container */
+}
+
+header {
+    background-color: #990000;
+    color: black;
+    padding: 50px 0;
+    text-align: center; /* Center text within the header */
+}
+
+.logo {
+    text-align: center;
+}
+
+.logo h1 {
+    font-size: 30px; /* Adjust as needed */
+    margin-bottom: 5px;
+}
+
+.logo p {
+    font-size: 20px; /* Adjust as needed */
+}
+
+nav ul {
+    list-style: none;
+    text-align: center; /* Center the list items */
+}
+
+nav ul li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+nav ul li:last-child {
+    margin-right: 0;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 20px; /* Adjust as needed */
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+main {
+    padding: 20px 0;
+    background-color: white;
+    margin: 20px auto;
+    width: 80%;
+    max-width: 1000px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    text-align: justify; /* Justify text within the main section */
+}
+
+main h2 {
+    color: #990000;
+    border-bottom: 2px solid #990000;
+    padding-bottom: 12px;
+    margin-bottom: 20px;
+    font-size: 28px; /* Adjust as needed */
+    text-align: center; /* Center text within the header */
+}
+
+main p {
+    line-height: 1.6;
+    margin: 10px 0;
+    font-size: 18px; /* Set font size to 18px */
+    text-align: justify; /* Justify text */
+}
+
+.gallery {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    grid-gap: 10px;
+    justify-content: center;
+    width: 70%;
+    margin: 20px auto; /* Center the gallery within its container */
+}
+
+.gallery video {
+    width: 70%;
+    height: auto;
+    border: 2px solid #990000;
+    border-radius: 5px;
+    display: block;
+    margin: 0 auto; /* Center the videos within their grid items */
+}
+
+section.my-services {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    max-width: 800px;
+    margin: 20px auto;
+    text-align: justify; /* Justify text within the section */
+}
+
+section.my-services h2 {
+    font-size: 28px; /* Adjust as needed */
+    margin-bottom: 15px;
+    text-align: center; /* Center text within the header */
+}
+
+section.my-services p {
+    font-size: 18px; /* Set font size to 18px */
+    line-height: 1.6;
+    margin: 10px 0;
+    text-align: justify; /* Justify text */
+}
